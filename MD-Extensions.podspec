@@ -4,10 +4,11 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.summary = 'Swift extensions for the iOS mobile team'
   s.homepage = 'https://github.com/markitondemand/Extensions'
-  s.authors = { 'Michael Leber' => 'michael.leber@ihsmarkit.com,' }
+  s.authors = { 'Elle Leber' => 'elle.skye117@gmail.com,' }
   s.source = { :git => 'https://github.com/markitondemand/iOS-Extensions.git', :tag => s.version }
-
-  s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
+  
+  s.ios.deployment_target = '12.4'
 
   s.source_files = 'Source/*.swift'
 

@@ -22,7 +22,6 @@
 		2865456E1E452193003964D0 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286545461E4520BB003964D0 /* CharacterSet.swift */; };
 		2865456F1E452196003964D0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286545471E4520BB003964D0 /* String.swift */; };
 		286545701E452199003964D0 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286545481E4520BB003964D0 /* UIColor.swift */; };
-		288A441A1F2F96EA0074DFEC /* EnumPrintableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A44191F2F96EA0074DFEC /* EnumPrintableTests.swift */; };
 		288E55631E96EE910057153A /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E55621E96EE910057153A /* Notification.swift */; };
 		28AD697A1E5769D300B69BA6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD69791E5769D300B69BA6 /* Date.swift */; };
 		28AD697C1E576B1500B69BA6 /* DateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD697B1E576B1500B69BA6 /* DateFormatterTests.swift */; };
@@ -64,7 +63,6 @@
 		286545681E45216B003964D0 /* ColorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
 		286545691E45216B003964D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2865456A1E45216B003964D0 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
-		288A44191F2F96EA0074DFEC /* EnumPrintableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumPrintableTests.swift; sourceTree = "<group>"; };
 		288E55621E96EE910057153A /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		28AD69791E5769D300B69BA6 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		28AD697B1E576B1500B69BA6 /* DateFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTests.swift; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 				28AD697B1E576B1500B69BA6 /* DateFormatterTests.swift */,
 				28440B6E1E79A79000E00667 /* DictionaryTests.swift */,
 				28B5CC461ECF9ABC001271A1 /* TimeIntervalTests.swift */,
-				288A44191F2F96EA0074DFEC /* EnumPrintableTests.swift */,
 				2859F8DE20656CCB00A0725D /* NotificationHandleTests.swift */,
 			);
 			path = MDExtensionsTests;
@@ -248,6 +245,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -308,7 +306,6 @@
 				2865456D1E45216B003964D0 /* StringTests.swift in Sources */,
 				280673D41E53D2FC00CD3518 /* CollectionTests.swift in Sources */,
 				28AD697C1E576B1500B69BA6 /* DateFormatterTests.swift in Sources */,
-				288A441A1F2F96EA0074DFEC /* EnumPrintableTests.swift in Sources */,
 				2865456B1E45216B003964D0 /* ColorTests.swift in Sources */,
 				282680941E566AEA00A56838 /* DateTests.swift in Sources */,
 				2859F8DF20656CCB00A0725D /* NotificationHandleTests.swift in Sources */,
@@ -335,16 +332,17 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PM8Y4J45MK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MDExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.markit.MDExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -359,16 +357,17 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PM8Y4J45MK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 2;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MDExtensions/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.markit.MDExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -452,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -501,7 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
